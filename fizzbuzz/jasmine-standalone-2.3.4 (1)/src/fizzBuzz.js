@@ -16,7 +16,7 @@ FizzBuzz.prototype.output = function(number) {
 };
 
 FizzBuzz.prototype.print = function(number) {
-  for (var i = 1; i < number; i++) {
+  for (var i = 1; i <= number; i++) {
     console.log(this.output(i));
   }
 };

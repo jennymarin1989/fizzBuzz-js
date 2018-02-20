@@ -34,9 +34,9 @@ describe('FizzBuzz', function() {
     });
   });
 
-  // describe('print', function() {
-  //   it('prints numbers up to the numbers passed into it', function() {
-  //
-  //   })
-  // });
+  describe('print', function() {
+    it('prints numbers up to the numbers passed into it', function() {
+      expect(fizzbuzz.print(5)).toEqual(true);
+    });
+  });
 });
